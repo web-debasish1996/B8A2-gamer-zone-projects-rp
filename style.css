@@ -24,9 +24,6 @@ a {
 
 /* header section start */
 
-/* .header-section{
-    width: 100%;
-} */
 .nav-section {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.09);
@@ -479,94 +476,6 @@ a {
     z-index: 2;
 }
 
-/* career section styles */
-
-.career-section {
-    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.career-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.career-content {
-    width: 50%;
-
-}
-
-
-.career-title {
-    color: #FFF;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 60px;
-    padding-top: 100px;
-}
-
-.career-description {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.career-images {
-    width: 50%;
-
-}
-
-.career-images img {
-    width: 100%;
-    object-fit: cover;
-}
-
-.career-info-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 32px;
-}
-
-.career-info {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 40px;
-}
-
-.career-info-text {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 40px;
-}
-
-.career-btn {
-    display: inline-flex;
-    padding: 21px 40px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
-    background: #FFF;
-    outline: none;
-    border: none;
-
-}
-
-.career-btn a {
-    font-size: 20px;
-    font-weight: 600;
-    color: #FF42A5;
-    text-transform: uppercase;
-    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 /* services section start */
 
