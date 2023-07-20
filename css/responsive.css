@@ -1,0 +1,216 @@
+@media screen and (max-width: 576px){
+    .nav-bar, .destination-container{
+        flex-direction: column;
+    }
+
+    .nav-logo{
+        padding: 20px 0;
+    }
+    .nav-bar .menu{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .nav-section{
+        box-shadow: none;
+    }
+    .nav-bar .menu li{
+        margin-top: 30px;
+    }
+    .banner-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .banner-image,
+     .destination-img, 
+     .destination-content{
+        width: 85%;
+        margin: 30px auto;
+    }
+    .banner-content{
+        width: 70%;
+        padding: 20px 5px;
+        margin: 50px auto;
+    }
+    .banner-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .banner-info li, .card{
+        margin: 20px 0;
+    }
+
+    /* destination section  styles */
+
+    .destination-img, 
+     .destination-content{
+        width: 100%;
+        padding: 50px 10px;
+    }
+    .destination-content{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* video section styles */
+
+    .video-container{
+        grid-template-columns: 1fr;
+    }
+    .card-img{
+        text-align: center;
+        width: 342px;
+        height: 400px;
+        margin: 0px auto;
+    }
+    .card-img img{
+        width: 100%;
+    }
+    .card-title{
+        text-align: center;
+        font-size: 16px;
+        margin: 20px 0;
+
+    }
+
+    /* play section styles */
+
+
+    .play-container{
+        flex-direction: column;
+    }
+    .play-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-images{ 
+        width: 300px;
+        height: 316px;
+        position: relative;
+        margin: 0 30px;
+    }
+    .play-images .side-img{
+        width: 120px;
+        height: 140px;
+        position: absolute;
+        top: 63%;
+        right: 76%;
+    }
+    .play-games-container{
+        flex-direction: column;
+    }
+    .play-games-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-games-images{ 
+        width: 300px;
+        height: 316px;
+        position: relative;
+        margin: 0 30px;
+    }
+    .play-games-images .side-img{
+        width: 120px;
+        height: 140px;
+        position: absolute;
+        top: 63%;
+        right: 76%;
+    }
+    .career-container{
+        flex-direction: column;
+    }
+    .career-images{
+        width: 100%;
+    }
+    .career-content{
+        width: 100%;
+    }
+
+    /* Services responsive styles */
+
+    /* .services-info-container{
+        width: 70%;
+        margin: 0 auto;
+        padding: 0 70px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .services-info img{
+        width: 40px;
+        height: 40px;
+    }
+    .services-info p{
+        font-size: 16px;
+    }
+    .services-info{
+        width: 185px;
+    } */
+
+    /* footer responsive styles */
+    .footer-menu{
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-menu p{
+        padding: 10px 0;
+    }
+    .footer-links{
+        width: 383px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        padding: 50px;
+    }
+    .footer-condition{
+        width: 380px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding-top: 50px;
+    }
+    .copy-right{
+        width: 251px;
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .common-section{
+        margin: 100px auto;
+    }
+    .our-purpose{
+        font-size: 20px;
+    }
+    .purpose-title{
+        font-size: 24px;
+    }
+    .video-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .play-content, .play-games-content{
+        width: 38%;
+    }
+    .play-images{
+        width: 40%;
+    }
+    .play-games-content .play-games-title{
+        font-size: 35px;
+    }
+    .play-games-images{
+        width: 40%;
+    }
+    .footer-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+
+}
