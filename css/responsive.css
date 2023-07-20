@@ -126,26 +126,6 @@
         width: 100%;
     }
 
-    /* Services responsive styles */
-
-    /* .services-info-container{
-        width: 70%;
-        margin: 0 auto;
-        padding: 0 70px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .services-info img{
-        width: 40px;
-        height: 40px;
-    }
-    .services-info p{
-        font-size: 16px;
-    }
-    .services-info{
-        width: 185px;
-    } */
-
     /* footer responsive styles */
     .footer-menu{
         width: 100%;
@@ -177,6 +157,9 @@
 @media screen and (min-width: 576px) and (max-width: 992px){
     .common-section{
         margin: 100px auto;
+    }
+    .content-description{
+        font-size: 16px;
     }
     .our-purpose{
         font-size: 20px;
